@@ -39,7 +39,6 @@ def process_file(filepath: str) -> FileInfo:
     return file_info
 
 
-
 def get_cli_args() -> list[str]:
     args = sys.argv
     if len(args) < 2:
